@@ -1,0 +1,166 @@
+/* index page style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+body, h2 {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+}
+
+#links {
+display: flex;
+justify-content: space-around;
+background-color: #333;
+color: white;
+padding: 10px;
+}
+
+#links a {
+color: white;
+text-decoration: none;
+font-size: 2rem;
+}
+.container{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.containers {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 100px auto;
+    max-width: 500px;
+    padding: 16px;
+    max-height: 500px;
+  background-color: #CEDEBD;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px 5px rgba(70, 35, 18, 0.288);
+  }
+  h2 {
+    text-align: center;
+    color: white;
+  }
+      #form {
+    display: grid;
+    /* height: 180px; */
+    width: 80%;
+    padding: 0px;
+    margin: 50px auto;
+  }
+  input[type="password"],
+  input[type="email"],input[type="text"],select[type="val"],input[type="number"]  {
+    padding: 5px 5px 10px;
+    color: black;
+    margin: 15px 6px 16px;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+   
+    box-sizing: border-box;
+  
+  }
+  
+  #submit{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+    margin: auto;
+    width: 50%;
+    border:none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  box-shadow: 0 8px 6px  -6px #000;
+  outline: none;
+  }
+  #submit:hover{
+      box-shadow: 0 8px 6px  -6px blueviolet;  
+  }
+/* applied page style */
+
+#links {
+display: flex;
+justify-content: space-around;
+background-color: #333;
+color: white;
+padding: 10px;
+}
+
+#links a {
+color: white;
+text-decoration: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e6e6e6;
+}
+.bookmarkBg {
+    background-color: rgb(247, 56, 56);
+    cursor: pointer;
+    color: white;
+}
+/* bookmark page */
+#links {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+}
+/* ll */
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+.btn{
+    color: rgb(253, 253, 253);
+    font-size: 1rem;
+    padding: 5px 7px ;
+    border: none;
+    background-color: rgb(53, 179, 201);
+    cursor: pointer;
+}
